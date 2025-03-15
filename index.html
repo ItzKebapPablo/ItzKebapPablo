@@ -3,51 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine Website</title>
+    <title>Crystal Website</title>
     <style>
         body {
-            background-color: #008;
-
+            background-color: #0000FF; /* Blauer Hintergrund */
+            color: white;
             text-align: center;
             font-family: Arial, sans-serif;
         }
-        .nav {
-            display: flex;
-            justify-content: center;
-            gap: 50px;
-            margin-top: 50px;
-        }
-        .nav a {
-            font-size: 24px;
-            color: gold;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .nav a:hover {
-            text-decoration: underline;
-        }
-        .info {
-            font-size: 16px;
-            color: black;
-            margin-left: 10px;
-        }
         .container {
             display: flex;
-            align-items: center;
+            flex-direction: column;
             justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
+            align-items: center;
+            height: 100vh;
+        }
+        .text {
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px 0;
         }
     </style>
 </head>
 <body>
-    <div class="nav">
-        <a href="https://discord.gg/JRJK5pM9Wj" target="_blank">Discord</a>
-        <div class="container">
-            <a href="https://workupload.com/archive/r4j5S3StJw" target="_blank">TexturPaket</a>
-            <span class="info">Runter scrollen um alles runterzuladen</span>
-        </div>
-        <a href="https://www.youtube.com/@itzbkpablo" target="_blank">Youtube</a>
+    <div class="container">
+        <a href="https://discord.gg/dUSNdnD32n" class="text">Discord</a>
+        <a href="https://workupload.com/archive/AmPzNAVpPn" class="text">Crystal</a>
     </div>
 </body>
 </html>
